@@ -1,0 +1,52 @@
+.form {
+    height: 60%;
+    width: 30%;
+}
+#main {
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+}
+#input_text {
+    width: 99.3%;
+    height: 45px;
+    padding: 0;
+    margin: 0;
+}
+
+.text_for_main {
+    width: 100%;
+    border: 1px solid black;
+}
+
+
+h2{
+    text-align: center;
+}
+table {
+    width: 100%;
+    table-layout: auto; 
+    border: 2px solid black; 
+}
+
+table td {
+    border: 1px solid black;
+    background-color: #AFC6BB;
+    font-weight: bold;
+    height: 50px;
+}
+button {
+    margin-right: 5px; 
+}
+
+input[type="checkbox"] {
+    margin-left: 5px;
+}
+td.action-cell {
+    width: 100px; 
+}
+
+
+td.content-cell {
+    width: auto; 
+}
