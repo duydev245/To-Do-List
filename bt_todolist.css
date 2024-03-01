@@ -1,52 +1,96 @@
-.form {
-    height: 60%;
-    width: 30%;
-}
-#main {
-    display: flex;
-    justify-content: center;
-    height: 1000px;
-}
-#input_text {
-    width: 99.3%;
-    height: 45px;
-    padding: 0;
+/* Reset some default styles */
+body, h1, h2, p, div, table, td, th, input, select, button {
     margin: 0;
-}
-
-.text_for_main {
-    width: 100%;
-    border: 1px solid black;
-}
-
-
-h2{
+    padding: 0;
+    border: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  header {
     text-align: center;
-}
-table {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #070707;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form {
+    text-align: center;
+  }
+  
+  .input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .data {
     width: 100%;
-    table-layout: auto; 
-    border: 2px solid black; 
-}
-
-table td {
-    border: 1px solid black;
-    background-color: #AFC6BB;
-    font-weight: bold;
-    height: 50px;
-}
-button {
-    margin-right: 5px; 
-}
-
-input[type="checkbox"] {
-    margin-left: 5px;
-}
-td.action-cell {
-    width: 100px; 
-}
-
-
-td.content-cell {
-    width: auto; 
-}
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #input_text {
+    width: 100%;
+  }
+  
+  .custom_button {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
